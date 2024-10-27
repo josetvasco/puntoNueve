@@ -31,7 +31,7 @@ form input {
   margin-bottom: 10px;
 }
 
-form button{
+form input[type="submit"]{
   border: none;
   background-color: #ee2b7b;
   color: white;
@@ -39,4 +39,10 @@ form button{
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.error {
+  color: rgb(234, 80, 80);
+  border: 2px solid rgb(234, 80, 80);
+  padding: 2px 4px;
 }
